@@ -1,0 +1,1 @@
+Lazy initialization singleton pattern.

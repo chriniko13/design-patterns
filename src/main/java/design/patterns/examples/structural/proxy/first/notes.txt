@@ -1,0 +1,10 @@
+NOTES
+
+1) Remote proxies. They will hide that actual object which is in a different address space.
+
+2) Virtual proxies. They are used to perform optimization techniques like the creation of a heavy object on a demand basis.
+
+3) Protection proxies. They generally deal with different access rights.
+
+4) Smart reference. It can also perform some additional housekeeping work when an object is accessed.
+   A typical operation is counting the number of references to the actual object.

@@ -1,0 +1,3 @@
+NOTES
+
+1) this example represents a shallow copy.
