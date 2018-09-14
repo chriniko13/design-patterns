@@ -16,9 +16,9 @@ public class QuotesFetcher implements Cloneable {
         quotes = new LinkedHashSet<>();
     }
 
-    public void fetch() {
+    public void fetch() throws Exception {
 
-        final Path quotesFilepath = Paths.get("C:\\Users\\Nikolai\\Desktop\\js-spring-security\\design-patterns-examples\\src\\main\\java\\design\\patterns\\examples\\creational\\prototype\\first\\quotes.txt");
+        final Path quotesFilepath = Paths.get(this.getClass().getClassLoader().getResource("quotes.txt").toURI());
 
         boolean exists = Files.exists(quotesFilepath);
         if (!exists) {

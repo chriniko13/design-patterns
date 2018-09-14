@@ -4,7 +4,7 @@ import design.patterns.examples.creational.prototype.first.core.QuotesFetcher;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         //creation...
         QuotesFetcher quotesFetcher = new QuotesFetcher();
